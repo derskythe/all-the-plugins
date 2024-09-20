@@ -13,7 +13,7 @@ Apps contains changes needed to compile them on latest firmware, fixes has been 
 
 The Flipper and its community wouldn't be as rich as it is without your contributions and support. Thank you for all you have done.
 
-### Apps checked & updated at `17 Aug 17:52 GMT +3`
+### Apps checked & updated at `16 Sep 18:13 GMT +3`
 
 
 # Default pack
@@ -159,6 +159,7 @@ The Flipper and its community wouldn't be as rich as it is without your contribu
 | Vexed | ![Games Badge] | [by dlvoy](https://github.com/dlvoy/flipper-zero-vexed) |  | ![None Badge] |
 | Paper Plane | ![Games Badge] | [by Larry-the-Pig](https://github.com/Larry-the-Pig/flipper-plane) |  | ![None Badge] |
 | Air Labyrinth (VGM) | ![Games Badge] | [by jamisonderek](https://github.com/jamisonderek/flipper-zero-tutorials/tree/main/vgm/apps/air_labyrinth) |  | [![Author Badge]](https://lab.flipper.net/apps/air_labyrinth) |
+| Laser Tag | ![Games Badge] | [by @RocketGod-git & @jamisonderek](https://github.com/RocketGod-git/Flipper-Zero-Laser-Tag) | Works via IR | ![None Badge] |
 | Air Mouse | ![GPIO Badge] | [by ginkage](https://github.com/ginkage/FlippAirMouse/) |  | [![Author Badge]](https://lab.flipper.net/apps/air_mouse) |
 | Plantower PMSx003 sensor reader | ![GPIO Badge] | [by 3cky](https://github.com/3cky/flipperzero-airmon) |  | [![UFW Badge]](https://lab.flipper.net/apps/airmon) |
 | Bar code scanner emulator via COM port | ![GPIO Badge] | [by polarikus](https://github.com/polarikus/flipper-zero_bc_scanner_emulator) |  | ![None Badge] |
@@ -208,6 +209,7 @@ The Flipper and its community wouldn't be as rich as it is without your contribu
 | ICM42688 Air Mouse | ![GPIO Badge] | [by nminaylov](https://github.com/flipperdevices/flipperzero-good-faps/pull/83/files) | read more details in [original repo](https://github.com/flipperdevices/flipperzero-good-faps/pull/83/files) | ![None Badge] |
 | WS2812B LED Tester | ![GPIO Badge] | [by jamisonderek](https://github.com/jamisonderek/flipper-zero-tutorials/tree/main/gpio/ws2812b_tester) | read more details in [original repo](https://github.com/jamisonderek/flipper-zero-tutorials/tree/main/gpio/ws2812b_tester) | ![None Badge] |
 | W5500 Ethernet Tester | ![GPIO Badge] | [by karasevia](https://github.com/karasevia/finik_eth) | [with fixes by arag0re](https://github.com/arag0re/fz-eth-troubleshooter/tree/hexUiFix) read more details in original repo | ![None Badge] |
+| Simultaneous UHF RFID | ![GPIO Badge] | [by haffnerriley](https://github.com/haffnerriley/Simultaneous-UHF-RFID-FlipperZero) | read more details in original repo | [![Author Badge]](https://lab.flipper.net/apps/simultaneous_rfid_reader) |
 | IR Remote | ![IR Badge] | [by Hong5489](https://github.com/Hong5489/ir_remote) | improvements [by friebel](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/pull/535) - Hold Option, RAW support [by d4ve10](https://github.com/d4ve10/ir_remote/tree/infrared_hold_option) | ![None Badge] |
 | IR Intervalometer | ![IR Badge] | [by Nitepone](https://github.com/Nitepone/flipper-intervalometer) |  | [![UFW Badge]](https://lab.flipper.net/apps/sony_intervalometer) |
 | IR Xbox Controller | ![IR Badge] | [by gebeto](https://github.com/gebeto/flipper-xbox-controller) |  | [![Author Badge]](https://lab.flipper.net/apps/xbox_controller) |
@@ -259,9 +261,10 @@ The Flipper and its community wouldn't be as rich as it is without your contribu
 | Simple calendar app | ![Tools Badge] | [by Adiras](https://github.com/Adiras/flipperzero-calendar) |  | ![None Badge] |
 | Programmer Calculator | ![Tools Badge] | [by armixz](https://github.com/armixz/Flipper-Zero-Programmer-Calculator) |  | ![None Badge] |
 | Tone Generator | ![Tools Badge] | [by GEMISIS](https://github.com/GEMISIS/tone_gen/) |  | ![None Badge] |
-| DCF77 Clock Sync | ![Tools Badge] | [by mdaskalov](https://github.com/mdaskalov/dcf77-clock-sync) |  | ![None Badge] |
+| DCF77 Clock Sppof | ![Tools Badge] | [by molodos](https://github.com/molodos/dcf77-clock-spoof) | fork of [dcf77-clock-sync](https://github.com/mdaskalov/dcf77-clock-sync) | ![None Badge] |
 | Quac! Remote | ![Tools Badge] | [by rdefeo](https://github.com/rdefeo/quac) | Various fixes by @Willy-JL | [![Author Badge]](https://lab.flipper.net/apps/quac) |
 | Key Copier | ![Tools Badge] | [by zinongli](https://github.com/zinongli/KeyCopier) |  | ![None Badge] |
+| uPython | ![Tools Badge] | [by ofabel](https://github.com/ofabel/mp-flipper) | read more details in original repo | [![Author Badge]](https://lab.flipper.net/apps/upython) |
 | USB HID Autofire | ![USB Badge] | [by pbek](https://github.com/pbek/usb_hid_autofire) |  | ![None Badge] |
 | USB Consumer Control | ![USB Badge] | [by WithSecureLabs](https://github.com/WithSecureLabs/usb-consumer-control/tree/main) |  | ![None Badge] |
 | HID File Transfer | ![USB Badge] | [by Kavakuo](https://github.com/Kavakuo/HID-File-Transfer) | Get client app in [original repo](https://github.com/Kavakuo/HID-File-Transfer) | ![None Badge] |
