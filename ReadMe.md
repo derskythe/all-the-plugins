@@ -13,7 +13,7 @@ Apps contains changes needed to compile them on latest firmware, fixes has been 
 
 The Flipper and its community wouldn't be as rich as it is without your contributions and support. Thank you for all you have done.
 
-### Apps checked & updated at `26 Sep 19:05 GMT +3`
+### Apps checked & updated at `5 Oct 10:18 GMT +3`
 
 
 # Default pack
@@ -35,9 +35,11 @@ The Flipper and its community wouldn't be as rich as it is without your contribu
 | SPI Mem Manager | ![GPIO Badge] |  | [![Official Badge]](https://lab.flipper.net/apps/spi_mem_manager) |
 | Signal Generator | ![GPIO Badge] |  | [![Official Badge]](https://lab.flipper.net/apps/signal_generator) |
 | Video Game Module Tool | ![GPIO Badge] | [by gsurkov](https://github.com/flipperdevices/flipperzero-good-faps/pull/127/files) | [![Official Badge]](https://lab.flipper.net/apps/video_game_module_tool) |
-| Mfkey32 | ![NFC Badge] |  | [![Official Badge]](https://lab.flipper.net/apps/mfkey32) |
+| FlipTDI | ![GPIO Badge] | [by Skorpionm](https://github.com/flipperdevices/flipperzero-good-faps/pull/234/files) | [![Official Badge]](https://lab.flipper.net/apps/flip_tdi) |
+| MFKey | ![NFC Badge] |  | [![Official Badge]](https://lab.flipper.net/apps/mfkey32) |
 | PicoPass | ![NFC Badge] |  | [![Official Badge]](https://lab.flipper.net/apps/picopass) |
-| Nfc Magic | ![NFC Badge] |  | [![Official Badge]](https://lab.flipper.net/apps/nfc_magic) |
+| NFC Magic | ![NFC Badge] |  | [![Official Badge]](https://lab.flipper.net/apps/nfc_magic) |
+| NFC Eink Tags | ![NFC Badge] | [by RebornedBrain](https://github.com/flipperdevices/flipperzero-good-faps/pull/245/files) | [![Official Badge]](https://lab.flipper.net/apps/nfc_eink) |
 | NFC/RFID detector | ![Tools Badge] |  | [![Official Badge]](https://lab.flipper.net/apps/nfc_rfid_detector) |
 | Simple Clock | ![Tools Badge] | [original by CompaqDisc](https://gist.github.com/CompaqDisc/4e329c501bd03c1e801849b81f48ea61), timer by GMMan, included in OFW<br>Part of UFW as main app [sources](https://github.com/DarkFlippers/unleashed-firmware/tree/dev/applications/main/clock_app) | [![Official Badge]](https://lab.flipper.net/apps/clock) |
 | Weather Station | ![SubGhz Badge] | added External Radio Support | [![Official Badge]](https://lab.flipper.net/apps/weather_station) |
@@ -60,9 +62,7 @@ The Flipper and its community wouldn't be as rich as it is without your contribu
 | **ProtoView** | ![SubGhz Badge] | [by antirez](https://github.com/antirez/protoview) |  | [![UFW Badge]](https://lab.flipper.net/apps/protoview) |
 | Rolling Flaws | ![SubGhz Badge] | [by CodeAllNight & jamisonderek](https://github.com/jamisonderek/flipper-zero-tutorials/tree/main/subghz/apps/rolling-flaws) |  | ![None Badge] |
 | Radio Scanner | ![SubGhz Badge] | [by RocketGod](https://github.com/RocketGod-git/Flipper-Zero-Radio-Scanner) | Scans frequencies available to the CC1101 and plays them over the speaker so you can hear them. | ![None Badge] |
-| **Mifare Nested** | ![NFC Badge] | [by AloneLiberty](https://github.com/AloneLiberty/FlipperNested) | Works with PC and python app `FlipperNested` | [![Author Badge]](https://lab.flipper.net/apps/mifare_nested) |
 | **NFC Maker** plugin | ![NFC Badge] | [by Willy-JL](https://github.com/Flipper-XFW/Xtreme-Firmware/tree/dev/applications/external/nfc_maker) | make tags with URLs, Wifi and other things | ![None Badge] |
-| **MFKey** with nested | ![NFC Badge] | [by noproto](https://github.com/noproto/FlipperMfkey) | mfkey32 upgrade | ![None Badge] |
 | MIFARE Classic Editor | ![NFC Badge] | [by TollyH](https://github.com/TollyH/flipper-apps/tree/main/mfc-editor) | edit dumps on flipper | [![Author Badge]](https://lab.flipper.net/apps/mfc_editor) |
 | **RFID Fuzzer** | ![RFID Badge] | [by @gid9798](https://github.com/DarkFlippers/Multi_Fuzzer) | original by Ganapati & xMasterX | [![UFW Badge]](https://lab.flipper.net/apps/fuzzer_rfid) |
 | **iButton Fuzzer** | ![iButton Badge] | [by @gid9798](https://github.com/DarkFlippers/Multi_Fuzzer) | original by xMasterX | [![UFW Badge]](https://lab.flipper.net/apps/fuzzer_ibtn) |
@@ -106,8 +106,8 @@ The Flipper and its community wouldn't be as rich as it is without your contribu
 | Mine Sweeper | ![Games Badge] | [by squee72564](https://github.com/squee72564/F0_Minesweeper_Fap) | Old version by @panki27 is published in official catalogue, will be replaced with redux version by @squee72564 | [![UFW Badge]](https://lab.flipper.net/apps/minesweeper) |
 | Heap Defence (aka Stack Attack) | ![Games Badge] | by xMasterX | ported to latest firmware by xMasterX, [original by wquinoa & Vedmein](https://github.com/Vedmein/flipperzerofirmware/tree/hd/svistoperdelki) | [![UFW Badge]](https://lab.flipper.net/apps/heap_defence) |
 | Game15 | ![Games Badge] | [by x27](https://github.com/x27/flipperzerogame15) |  | [![UFW Badge]](https://lab.flipper.net/apps/game15) |
-| Solitaire | ![Games Badge] | [by teeebor](https://github.com/teeebor/flipper_games) |  | ![None Badge] |
-| BlackJack | ![Games Badge] | [by teeebor](https://github.com/teeebor/flipper_games) |  | ![None Badge] |
+| Solitaire | ![Games Badge] | [by doofy-dev](https://github.com/doofy-dev/flipper_solitaire) |  | ![None Badge] |
+| BlackJack | ![Games Badge] | [by doofy-dev](https://github.com/doofy-dev/flipper_blackjack/tree/main) |  | ![None Badge] |
 | 2048 game | ![Games Badge] | [by eugenekirzhanov](https://github.com/eugene-kirzhanov/flipper-zero-2048-game) |  | [![UFW Badge]](https://lab.flipper.net/apps/game_2048) |
 | Bomberduck | ![Games Badge] | [by leoneedmorecoffee](https://github.com/leoneedmorecoffee/flipperzerobomberduck) |  | ![None Badge] |
 | JetPack Joyride | ![Games Badge] | [by timstrasser](https://github.com/timstrasser) |  | [![Author Badge]](https://lab.flipper.net/apps/jetpack_game) |
